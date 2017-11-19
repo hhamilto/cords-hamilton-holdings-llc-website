@@ -6,14 +6,18 @@ body, html, ol, ul {
 }
 
 body {
+}
+
+#content-container {
+	height: 70vh;
 	background: url('../img/background-1.jpeg') no-repeat center center fixed; 
 	background-size: cover;
 }
 
+
 #content {
 	max-width: 800px;
 	margin: 0 auto;
-	height: 70vh;
 	overflow: auto;
 	padding: 0 5vw;
 }
