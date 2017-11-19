@@ -40,9 +40,6 @@ h1 {
 	}
 
 	#columns {
-		background: #FFF;
-		min-height: 20vh;
-		display: flex;
 		flex-direction: row;
 	}
 	
