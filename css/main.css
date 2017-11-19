@@ -1,4 +1,58 @@
+body, html, ol, ul {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
 body {
-	background: url('../img/background.jpeg') no-repeat top center fixed; 
+	background: url('../img/background.jpeg') no-repeat center center fixed; 
 	background-size: cover;
 }
+
+#content {
+	max-width: 800px;
+	margin: 0 auto;
+	height: 75vh;
+	overflow: auto;
+}
+
+#columns {
+	background: #FFF;
+	min-height: 25vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#columns > div {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 5vh;
+	color: #FFF;
+	text-align: center;
+}
+
+@media only screen and (min-width: 800px)  {
+	h1 {
+		font-size: 80px;
+	}
+
+	#columns {
+		background: #FFF;
+		min-height: 20vh;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	#columns > div {
+		flex-basis: 50%;
+	}
+
+	#about {
+		text-align: right;
+	}
+
+}
+
