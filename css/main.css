@@ -12,13 +12,13 @@ body {
 #content {
 	max-width: 800px;
 	margin: 0 auto;
-	height: 75vh;
+	height: 70vh;
 	overflow: auto;
 }
 
 #columns {
 	background: #FFF;
-	min-height: 25vh;
+	min-height: 30vh;
 	display: flex;
 	flex-direction: column;
 }
