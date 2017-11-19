@@ -10,7 +10,7 @@ body {
 
 #content-container {
 	height: 70vh;
-	background: url('../img/background-1.jpeg') no-repeat center center fixed; 
+	background: url('../img/background-1.jpeg') no-repeat center center; 
 	background-size: cover;
 }
 
